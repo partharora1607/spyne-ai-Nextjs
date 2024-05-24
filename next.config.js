@@ -9,14 +9,14 @@ module.exports = {
   ...nextConfig,
   env: {
     /** change values for different environments (local, staging, production) */
-    PROJECT_BASEURL: "https://www.spyne.ai",
-    IMG_CLOUD_STORAGE_PREFIX: "https://spyne-static.s3.amazonaws.com",
-    BACKEND_BASEURL: "https://api.spyne.ai",
-    USER_MANAGEMENT_SERVICE: "https://api.spyne.ai",
-    IMG_CLOUD_STORAGE_PREFIX_2: "https://prod-spyne-website.s3.amazonaws.com",
-    PUBLIC_API_SECRET : "816f5d3b-c6e2-44f5-968a-20bb4d1af8d5",
-    APP_KEY_GOOGLE_CLIENT_ID:'887824920844-6n7pic33ra30hf0mjlrc8f1m6qt6hs9r.apps.googleusercontent.com',
-    clevertapKey:"TEST-Z4W-55R-786Z",
+    PROJECT_BASEURL: "",
+    IMG_CLOUD_STORAGE_PREFIX: "",
+    BACKEND_BASEURL: "",
+    USER_MANAGEMENT_SERVICE: "",
+    IMG_CLOUD_STORAGE_PREFIX_2: "",
+    PUBLIC_API_SECRET : "816f5jjdkjfdd3b-c6e2-44f5-968a-20bb4d1af8d5",
+    APP_KEY_GOOGLE_CLIENT_ID:'fhdjhdjf',
+    clevertapKey:"fdhjhjdh",
     minutesToRefresh: 15
     },
   

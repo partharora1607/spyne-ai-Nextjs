@@ -117,16 +117,16 @@ import { localStorageKeys } from "@/components/signInSignUp/config";
                 </p>
                 <form onSubmit={handleSubmit} className="uploadFormrounded-lg border-dashed border border-black-300 bg-[#4A3AFF05]">
 
-                    <input className="h-[10vh] w-full opacity-0"  type="text" accept="image/*" onChange={handleFileChange} />
+                    <input className="h-[10vh] w-full opacity-0"  type="text"  onChange={handleFileChange} />
                     <div className="uploadBoxContent pb-3">
                         <img className="m-auto mb-6" src="https://prod-spyne-website.s3.amazonaws.com/ba4d9e53-62ef-46bb-a529-4f2a2dc67404"></img>
                         <label for="imagefile" className="btn">
                             <p className="blue-btn m-auto w-52 cursor-pointer">Upload</p>
                         </label>
-                        <input className="opacity-0 h-0" type="text" id="imagefile" accept="image/*" onChange={handleFileChange}/> 
+                        <input className="opacity-0 h-0" type="text" id="imagefile"  onChange={handleFileChange}/> 
                         <p className="mt-[-12px]">Drop your image here</p>
                     </div>
-                    <input className="h-[10vh] w-full opacity-0"  type="text" accept="image/*" onChange={handleFileChange} />
+                    <input className="h-[10vh] w-full opacity-0"  type="text"  onChange={handleFileChange} />
                     
                         
                 </form>

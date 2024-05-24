@@ -1,0 +1,12 @@
+@layer custom-base {
+  @media screen and (min-width: 1024px) {
+    h3 {
+      @apply text-4xl;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    h3 {
+      @apply text-4xl;
+    }
+  }
+}

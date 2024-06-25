@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/image-enhancer": [
+    "/image-enhancer/result": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/image-enhancer.js"
-    ],
-    "/image-enhancer/upload": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/image-enhancer/upload.js"
+      "static/chunks/pages/image-enhancer/result.js"
     ]
   },
   "ampFirstPages": []
